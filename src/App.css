@@ -1,38 +1,56 @@
+/* pang debugg */
+* {
+  border: 1px solid black;
+}
+
 .App {
   text-align: center;
+  background-color: #67076c;
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .continer {
+  width: 100%;
+  height: 100vh;
+} */
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  /* border: 5px solid #fff; */
+  box-shadow: 5px 5px 20px 10px #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cell {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 40px;
+  background-color: #e2a8f2;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.X {
+  color: blue;
+}
+
+.O {
+  color: red;
+}
+
+.btn {
+  background-color: #1c061d;
+  height: 50px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
 }

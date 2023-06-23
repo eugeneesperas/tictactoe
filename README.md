@@ -1,3 +1,34 @@
+1. Please build the project using typescript, NodeJS for the backend, and react.js for the UI
+
+---unfotunately i have learned typscript but base on my research typescript is built on top of JS
+that why, I use reactjs, html and css for this practical exam.
+
+=============================================
+
+.readMe
+
+as mentioned I use reactjs.
+useState
+the connected in my root id in index.html, directory public are index.js, App.js and App.css only.
+================================
+TIK-TAC-TOE INSTRUCTIONS:
+
+1. The game is played on a 3x3 grid.
+2. Two players take turns marking empty cells on the grid.
+3. Player 1 marks cells with "X", and Player 2 marks cells with "O".
+4. The objective is to get three of your marks (X or O) in a horizontal, vertical, or diagonal row.
+5. The game ends when one player achieves the objective or when all cells are filled.
+6. If a player achieves the objective, they win the game.
+7. # If all cells are filled without any winning combinations, the game ends in a draw.
+   Problem unsolved:
+   notice when you click the size is changing, i tried to change the board size from 300px by 300px
+   to 500px by 500px but still persist. and I'am almost in the deadline time,
+   haha. bawi nextime "-eugene".
+   ================================
+   DESIGN:
+   I chose the color violet for no particular reason.
+   ====================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
